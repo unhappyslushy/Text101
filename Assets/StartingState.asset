@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d0b94fdf1ba413aa3089d5d9e8ff81, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'The Bank Job Didn''t go as planned and we are surrounded by the police.
+
+
+    1. Sneak out
+
+
+    2. Fight your Way Out'
+  nextStates:
+  - {fileID: 11400000, guid: cace1dd25c7ba4263bcdb65ad81e7834, type: 2}
+  - {fileID: 11400000, guid: 545e3680e638a498cb3e5870ecab27bf, type: 2}
